@@ -40,7 +40,7 @@ int main()
 	{ 
 		ll a,b;
 		cin>>a>>b;
-		cout<<(a+b)/(2.0)<<endl;t	
+		cout << min(a,b) + max(a,b) << endl;	
 	}
 	return 0;	
 }
