@@ -40,7 +40,15 @@ int main()
 	{ 
 		ll a,b;
 		cin>>a>>b;
-		cout << min(a,b) + max(a,b) << endl;	
+		cout << min(a,b) + max(a,b) << endl;
+		ll n;
+		cin >> n;
+		ll arr[n+1];
+		for(ll i=1;i<=n;i++)
+			cin >> arr[i];
+
+		for(ll i=1;i<=n;i++)
+			cout << arr[i] << " " << endl;	
 	}
 	return 0;	
 }
