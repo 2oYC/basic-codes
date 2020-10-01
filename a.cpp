@@ -6,16 +6,6 @@ typedef long long int ll;
 typedef long double ld;
 
 #define fastio ios_base::sync_with_stdio(false); cin.tie(NULL);
-#define pll pair<ll,ll>
-#define MP make_pair
-#define ff first
-#define ss second
-#define PB push_back
-#define mod 1000000007
-#define lp(i,start,end) for(ll i=start;i<=end;i++) 
-#define deb1(a) cout<<#a<<" = "<<(a)<<endl;
-#define deb2(a,b) cout<<#a<<" = "<<(a)<<", "<<#b<<" = "<<(b)<<endl;
-#define deb3(a,b,c) cout<<#a<<" = "<<(a)<<", "<<#b<<" = "<<(b)<<", "<<#c<<" = "<<(c)<<endl;
 
 
 ll modu(ll a, ll b)
@@ -47,8 +37,11 @@ int main()
 		for(ll i=1;i<=n;i++)
 			cin >> arr[i];
 
+		sort(arr+1 ,arr+n+1);
+
 		for(ll i=1;i<=n;i++)
-			cout << arr[i] << " " << endl;	
+			cout <<  arr[i];
+
 	}
 	return 0;	
 }
